@@ -1,0 +1,42 @@
+.youtube_list {
+	list-style: none;
+}
+
+.youtube_list li {
+	margin-bottom: 5px;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+.youtube_list li a {
+	cursor: pointer;
+}
+
+.youtube_list li a img {
+	width: 130px;
+}
+
+#youtube_video_player {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 10000;
+	text-align:center;
+  	vertical-align: middle;
+    height: 100%;
+    width:100%;
+}
+
+#youtube_video_player iframe {
+	margin: 0 auto;
+	z-index: 10000;
+	display: block;
+	margin-top: 10%;
+	border-radius: 10px;
+	border: solid #fff 10px;
+	box-shadow: 0px 5px 20px rgba(0,0,0,0.8);
+}
